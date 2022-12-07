@@ -1,0 +1,34 @@
+{
+    "name": "btsborahae",
+    "displayName": "BTS Borahae",
+    "version": "1.0.4",
+    "publisher": "sooj",
+    "description": "A mostly purple theme inspired by BTS and borahae / 보라해 / I Purple You. There are dark and light versions.",
+    "author": {
+        "name": "sooj"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": ["Themes"],
+    "icon": "images/bts.jpeg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "BTS Borahae Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/btsborahae-dark.json"
+            }
+            {
+                "label": "BTS Borahae Light",
+                "uiTheme": "vs-light",
+                "path": "./themes/btsborahae-light.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cloudycatt/btsborahae.git"
+    },
+    "homepage": "https://github.com/cloudycatt/btsborahae#readme"
+}
